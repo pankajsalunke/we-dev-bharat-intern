@@ -39,14 +39,20 @@ body {
   font-size: 18px;
 }
 
+
 #btn {
-  background: #11998e;
+  background-color: #11998e;
   color: #fff;
   padding: 10px;
   border-radius: 5px;
   border: none;
   cursor: pointer;
   width: 25%;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+#btn:hover{
+  background-color: #ff5733; /* Change to your desired hover color */
 }
 
 
